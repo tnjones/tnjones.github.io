@@ -1,0 +1,38 @@
+body {
+  	width: 100%;
+  	height: 100%;  
+	background: url(background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+	font-family: Quicksand;
+}
+
+h1 {
+	color: white;
+}
+
+.container-fluid {
+	margin: 10% 0px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: lowercase;
+	background-color: #86ceed;
+	border: 1px solid #86ceed;
+	border-radius: 300px;
+}
+
+.btn:hover {
+	background-color: #439fc1;
+	border: 1px solid #439fc1;
+}
+
+.btn-lg {
+	margin: 5% 0px;
+}
